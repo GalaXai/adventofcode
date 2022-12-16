@@ -28,6 +28,6 @@ def one(string):
 if __name__ == '__main__':
     with open('in.txt') as f:
         data = f.read().splitlines()
-    #print (one(data[0]))
-    print(two(data[0])) # 1848
+    print (one(data[0]))
+    print(two(data[0]))
     print(data[0][2308-14:2308])
